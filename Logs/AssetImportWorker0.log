@@ -9,15 +9,15 @@ C:\Program Files\Unity 2023.1.11f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker3
+AssetImportWorker0
 -projectPath
-C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/racoonSim/spaceApps
+C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/CosmicCrewmates
 -logFile
-Logs/AssetImportWorker3.log
+Logs/AssetImportWorker0.log
 -srvPort
-51095
-Successfully changed project path to: C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/racoonSim/spaceApps
-C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/racoonSim/spaceApps
+49681
+Successfully changed project path to: C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/CosmicCrewmates
+C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/CosmicCrewmates
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/racoonSim/spaceAp
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22376] Host "[IP] 192.168.222.109 [Port] 0 [Flags] 2 [Guid] 3605457239 [EditorId] 3605457239 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20556] Host "[IP] 192.168.222.109 [Port] 0 [Flags] 2 [Guid] 583247093 [EditorId] 583247093 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22376] Host "[IP] 192.168.222.109 [Port] 0 [Flags] 2 [Guid] 3605457239 [EditorId] 3605457239 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20556] Host "[IP] 192.168.222.109 [Port] 0 [Flags] 2 [Guid] 583247093 [EditorId] 583247093 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 19.29 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 24.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
 Initialize engine version: 2023.1.11f1 (fbf46ad88f3d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2023.1.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/racoonSim/spaceApps/Assets
+[Subsystems] Discovering subsystems at path C:/Users/A00307309/OneDrive - TUS MM/2nd Year/Documents/GitHub/CosmicCrewmates/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2023.1.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2023.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2023.1.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -84,40 +84,40 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2023.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002812 seconds.
-- Loaded All Assemblies, in  0.364 seconds
+Registered in 0.002875 seconds.
+- Loaded All Assemblies, in  0.358 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.249 seconds
-Domain Reload Profiling: 612ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (15ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (110ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (137ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (249ms)
+	FinalizeReload (258ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (215ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadAttributes (150ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -139,10 +139,10 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\A00307309\OneDrive - TUS MM\2nd Year\Documents\GitHub\racoonSim\spaceApps\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\A00307309\OneDrive - TUS MM\2nd Year\Documents\GitHub\racoonSim\spaceApps\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.945 seconds
-Refreshing native plugins compatible for Editor in 10.22 ms, found 13 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\A00307309\OneDrive - TUS MM\2nd Year\Documents\GitHub\CosmicCrewmates\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\A00307309\OneDrive - TUS MM\2nd Year\Documents\GitHub\CosmicCrewmates\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 9.95 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -171,46 +171,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.743 seconds
-Domain Reload Profiling: 1684ms
-	BeginReloadAssembly (278ms)
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1727ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (583ms)
-		LoadAssemblies (311ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (357ms)
-			TypeCache.Refresh (316ms)
-				TypeCache.ScanAssembly (300ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (306ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
 			ResolveRequiredComponents (14ms)
-	FinalizeReload (743ms)
+	FinalizeReload (774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (473ms)
+		SetupLoadedEditorAssemblies (498ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 9.06 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 6308 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (1.5 MB). Loaded Objects now: 6862.
-Memory consumption went from 251.5 MB to 250.0 MB.
-Total: 6.155500 ms (FindLiveObjects: 0.685300 ms CreateObjectMapping: 0.705800 ms MarkObjects: 4.279100 ms  DeleteObjects: 0.484600 ms)
+Refreshing native plugins compatible for Editor in 10.34 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (1.5 MB). Loaded Objects now: 6884.
+Memory consumption went from 253.9 MB to 252.3 MB.
+Total: 6.610600 ms (FindLiveObjects: 0.610800 ms CreateObjectMapping: 0.689300 ms MarkObjects: 4.736300 ms  DeleteObjects: 0.573400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -225,7 +225,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 102255.202005 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6c43f7e371a1db74396a782957fb26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6c43f7e371a1db74396a782957fb26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f3e90c43e94a48783235bbd2a17ac') in 0.002213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.331524 seconds.
+  path: Assets/Scenes/Mars.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mars.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc5c30b143d9b54ef929f316d23de2a') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 378.433213 seconds.
+  path: Assets/igloo.fbx
+  artifactKey: Guid(000fdae9e786a3343bd39afccd63bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/igloo.fbx using Guid(000fdae9e786a3343bd39afccd63bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1cf2cd97b26bc2e37733567c5fc4e8') in 0.357240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
